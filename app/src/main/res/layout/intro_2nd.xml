@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/img"
+        android:scaleType="fitXY"
+        android:src="@drawable/introduction_1"/>
+    <!--<FrameLayout-->
+        <!--android:id="@+id/images"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="4"-->
+        <!--android:clipChildren="false">-->
+        <!--<ImageView-->
+            <!--android:id="@+id/welcome_01"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/mobiledevelopment"-->
+            <!--android:paddingLeft="16dp"-->
+            <!--android:paddingRight="16dp"-->
+            <!--android:layout_gravity="center_horizontal|bottom"/>-->
+
+    <!--</FrameLayout>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/heading"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="0.5"-->
+        <!--android:paddingLeft="24dp"-->
+        <!--android:paddingRight="24dp"-->
+        <!--android:gravity="bottom|center_horizontal"-->
+        <!--android:text="Welcome to Erginus"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="18dp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/content"-->
+        <!--android:text="Company specialized in web services such as Web Design and Development, Custom application development, Graphics solutions, Android and iPhone Application Development, Social Networking and worldwide Web Promotion."-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:paddingLeft="24dp"-->
+        <!--android:paddingRight="24dp"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:gravity="top|center_horizontal"-->
+        <!--/>-->
+    <!--<View-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:background="#40000000"/>-->
+
+</RelativeLayout>

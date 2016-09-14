@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cord"
+    android:background="@color/colorPrimary">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/colorPrimary"
+    android:orientation="vertical">
+<include layout="@layout/toolbar"/>
+    <AutoCompleteTextView
+        android:imeOptions="actionDone"
+        android:inputType="textAutoComplete"
+        android:textColorHint="@color/black"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Type Address"
+        android:textColor="@color/colorPrimaryDark"
+        android:drawablePadding="10dp"
+        android:id="@+id/edit_search2"
+        android:background="@drawable/contact_button"
+        android:drawableLeft="@drawable/loc1">
+    <requestFocus/></AutoCompleteTextView>
+    <ListView
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_address"/>
+</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

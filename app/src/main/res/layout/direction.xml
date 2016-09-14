@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cord"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:BannerView="http://schemas.android.com/apk/lib/com.smaato.soma">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<WebView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/web1"
+    android:layout_weight="1">
+
+</WebView>
+    <com.smaato.soma.BannerView
+        android:id="@+id/bannerView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        BannerView:publisherId="1100022500"
+        BannerView:adSpaceId="130134560"
+        BannerView:loadNewBanner="true"
+        android:layout_gravity="bottom"/>
+</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/wrapper"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/back1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/floating_back"
+        app:backgroundTint="#383838"
+        android:layout_gravity="top|end"
+        app:rippleColor="#3F51B5" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/refresh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@+id/back1"
+android:layout_marginTop="10dp"
+        android:src="@drawable/float_refresh"
+        app:backgroundTint="#383838"
+        app:layout_anchorGravity="top"
+        app:rippleColor="#3F51B5"
+        android:layout_below="@+id/back1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
